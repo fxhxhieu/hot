@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Từ Dẻo</title>
+<meta name="description" content="Học từ vựng tiếng Anh theo cấp độ A1 đến B2, có ôn tập lặp lại ngắt quãng.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cellipse cx='16' cy='18' rx='14' ry='11' fill='%23C93A63'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Be+Vietnam+Pro:wght@400;500;600;700&family=Noto+Sans:wght@400;500&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrap" id="root">
+  <header class="top">
+    <div class="brand"><span class="mark" aria-hidden="true"></span>Từ Dẻo</div>
+    <div class="grow"></div>
+    <nav class="tabs" id="tabs" aria-label="Điều hướng">
+      <button data-a="tab" data-t="today">Hôm nay</button>
+      <button data-a="tab" data-t="topics">Chủ đề</button>
+      <button data-a="tab" data-t="words">Từ vựng</button>
+      <button data-a="tab" data-t="stats">Tiến độ</button>
+    </nav>
+    <span class="sync" id="sync"></span>
+    <button class="iconbtn" data-a="sheet" data-s="settings">Cài đặt</button>
+  </header>
+  <main id="app" aria-live="polite"></main>
+</div>
+<div id="sheet"></div>
+<div id="toast"></div>
+<noscript>Trang này cần bật JavaScript để chạy.</noscript>
+<script src="js/words.js"></script>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
